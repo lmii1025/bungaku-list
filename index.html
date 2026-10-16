@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>めくる、文学の頁。ー近代文学への誘いー</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        amberWarm: {
+                            50: '#fdf8f0',
+                            100: '#fbeedb',
+                            200: '#f5d7b3',
+                            300: '#edb980',
+                            400: '#e3944d',
+                            500: '#d97724',
+                            600: '#bc5d19',
+                            700: '#974516',
+                            800: '#7a3717',
+                            900: '#642f17',
+                            950: '#38170b',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Hiragino Mincho ProN"', '"Yu Mincho"', 'YuMincho', 'serif'],
+                        sans: ['"Hiragino Kaku Gothic ProN"', '"Meiryo"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="h-full bg-amberWarm-50 text-amberWarm-900 font-sans antialiased flex flex-col selection:bg-amberWarm-200">
+
+    <!-- ヘッダー・タイトルセクション -->
+    <header class="w-full bg-gradient-to-b from-amberWarm-100 to-amberWarm-50 pt-10 pb-8 px-4 text-center border-b border-amberWarm-200/60 shadow-sm">
+        <div class="max-w-md mx-auto">
+            <!-- 小さめの文字：QRコードのお礼 -->
+            <p class="text-xs sm:text-sm text-amberWarm-700 font-medium mb-4 tracking-wider opacity-90">
+                QRコードを読み取っていただき、ありがとうございます。
+            </p>
+
+            <!-- メインタイトル：すべて同じカラーで統一（下の線は削除しました） -->
+            <h1 class="text-2xl sm:text-3xl font-serif font-bold text-amberWarm-900 leading-relaxed tracking-wide">
+                めくる、文学の頁。<br>
+                <span class="text-xl sm:text-2xl font-normal text-amberWarm-900 mt-1 inline-block">ー近代文学への誘いー</span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ（作品リスト） -->
+    <main class="flex-grow max-w-md w-full mx-auto px-4 py-8">
+        <p class="text-xs sm:text-sm text-amberWarm-800/80 mb-6 text-center font-serif">
+            心に染み入る、名作たちの世界へようこそ。<br>タップすると青空文庫のページが開きます。
+        </p>
+
+        <!-- 作品カード一覧 -->
+        <div class="space-y-4">
+
+            <!-- 作品 1 -->
+            <a href="https://www.aozora.gr.jp/cards/000038/files/1411_16038.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">国木田独歩</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">画の悲しみ</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 作品 2 -->
+            <a href="https://www.aozora.gr.jp/cards/000879/files/98_15272.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">芥川龍之介</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">蜜柑</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 作品 3 -->
+            <a href="https://www.aozora.gr.jp/cards/000035/files/42376_15545.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">太宰治</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">葉桜と魔笛</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 作品 4 -->
+            <a href="https://www.aozora.gr.jp/cards/000158/files/50377_68771.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">島崎藤村</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">燈火</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 作品 5 -->
+            <a href="https://www.aozora.gr.jp/cards/000067/files/509_21645.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">萩原朔太郎</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">喫茶店にて</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 作品 6 -->
+            <a href="https://www.aozora.gr.jp/cards/000040/files/53449_44457.html" target="_blank" rel="noopener noreferrer" class="block bg-white hover:bg-amberWarm-100/50 border border-amberWarm-200 rounded-xl p-4 shadow-sm hover:shadow transition duration-200 group">
+                <div class="flex items-start justify-between">
+                    <div>
+                        <span class="text-xs font-semibold tracking-wider text-amberWarm-600 bg-amberWarm-100 px-2 py-0.5 rounded-md inline-block mb-1">織田作之助</span>
+                        <h2 class="text-lg font-serif font-bold text-amberWarm-900 group-hover:text-amberWarm-700 transition">ひとりすまう</h2>
+                    </div>
+                    <div class="text-amberWarm-400 group-hover:translate-x-1 transition-transform self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="w-full text-center py-6 text-xs text-amberWarm-700/70 border-t border-amberWarm-200/50 bg-amberWarm-100/30">
+        <p>&copy; 2026 めくる、文学の頁。 All Rights Reserved.</p>
+        <p class="mt-1">※作品は「青空文庫」のテキストデータを使用しています。</p>
+    </footer>
+
+</body>
+</html>
